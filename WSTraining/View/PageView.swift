@@ -31,7 +31,7 @@ struct PageView: View {
                 
             }.frame(height: 165)
             
-            Spacer()
+            Spacer(minLength: 60)
             
             VStack {
                 Text(page.name)
