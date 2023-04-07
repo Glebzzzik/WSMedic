@@ -11,6 +11,8 @@ struct PageView: View {
     
     var page: Page
     
+    @State private var isPresentedEmail = false
+    
     var body: some View {
         VStack{
             
@@ -18,12 +20,16 @@ struct PageView: View {
                 VStack{
                     Button {
                         print()
+                        isPresentedEmail.toggle()
                     } label: {
                         Text(page.buttonText)
                             .font(.system(size: 20))
                             .foregroundColor(Color("Blue"))
                             .padding(.leading, 15)
+                    }.fullScreenCover(isPresented: $isPresentedEmail) {
+                        Email   ()
                     }
+                    
                     Spacer()
                 }
                 Spacer()

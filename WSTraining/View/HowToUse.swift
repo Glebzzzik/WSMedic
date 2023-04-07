@@ -17,14 +17,14 @@ struct HowToUse: View {
         TabView(selection: $pageIndex) {
             ForEach(pages) { page in
                 VStack() {
-                    Spacer()
+                    
                     PageView(page: page)
-                    Spacer()
+                    
                 }.tag(page.tag)
             }
         }
         .animation(.easeInOut, value: pageIndex)
-        .tabViewStyle(PageTabViewStyle())
+        .tabViewStyle(.page)
 
     }
 }

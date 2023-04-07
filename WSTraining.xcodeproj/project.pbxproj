@@ -8,25 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4147CE1529D4301B00FBF986 /* WSTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147CE1429D4301B00FBF986 /* WSTrainingApp.swift */; };
-		4147CE1729D4301B00FBF986 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147CE1629D4301B00FBF986 /* ContentView.swift */; };
 		4147CE1929D4301C00FBF986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147CE1829D4301C00FBF986 /* Assets.xcassets */; };
 		4147CE1C29D4301C00FBF986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147CE1B29D4301C00FBF986 /* Preview Assets.xcassets */; };
 		4147CE2729D4326E00FBF986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4147CE2629D4326E00FBF986 /* LaunchScreen.storyboard */; };
 		4147CE2929D4339900FBF986 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147CE2829D4339900FBF986 /* PageModel.swift */; };
 		4147CE2B29D435C000FBF986 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147CE2A29D435C000FBF986 /* PageView.swift */; };
 		4147CE2D29D43B2500FBF986 /* HowToUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147CE2C29D43B2500FBF986 /* HowToUse.swift */; };
+		41DB01D729DD5DD10019E69D /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB01D629DD5DD10019E69D /* Email.swift */; };
+		41DB01D929DD6A220019E69D /* EmailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DB01D829DD6A220019E69D /* EmailVM.swift */; };
+		41DB01DC29DD6A4C0019E69D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 41DB01DB29DD6A4C0019E69D /* Alamofire */; };
+		41DB01DF29DD6A5B0019E69D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 41DB01DE29DD6A5B0019E69D /* SwiftyJSON */; };
+		41F73FBE29DED286002DC99C /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F73FBD29DED286002DC99C /* Code.swift */; };
+		5F65B6BD2338D62ED08A33EE /* Pods_WSTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA97F44A5DC14EF3A35E3144 /* Pods_WSTraining.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4147CE1129D4301B00FBF986 /* WSTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4147CE1429D4301B00FBF986 /* WSTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTrainingApp.swift; sourceTree = "<group>"; };
-		4147CE1629D4301B00FBF986 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4147CE1829D4301C00FBF986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4147CE1B29D4301C00FBF986 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4147CE2629D4326E00FBF986 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4147CE2829D4339900FBF986 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
 		4147CE2A29D435C000FBF986 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		4147CE2C29D43B2500FBF986 /* HowToUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUse.swift; sourceTree = "<group>"; };
+		41DB01D629DD5DD10019E69D /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		41DB01D829DD6A220019E69D /* EmailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVM.swift; sourceTree = "<group>"; };
+		41F73FBD29DED286002DC99C /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Code.swift; path = ../../../../.Trash/Code.swift; sourceTree = "<group>"; };
+		4E5BEA38F71D7434E4B2830E /* Pods-WSTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTraining.debug.xcconfig"; path = "Target Support Files/Pods-WSTraining/Pods-WSTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		B0FE2077339B945DB3D16E0D /* Pods-WSTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTraining.release.xcconfig"; path = "Target Support Files/Pods-WSTraining/Pods-WSTraining.release.xcconfig"; sourceTree = "<group>"; };
+		CA97F44A5DC14EF3A35E3144 /* Pods_WSTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DB01DF29DD6A5B0019E69D /* SwiftyJSON in Frameworks */,
+				5F65B6BD2338D62ED08A33EE /* Pods_WSTraining.framework in Frameworks */,
+				41DB01DC29DD6A4C0019E69D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +58,8 @@
 			children = (
 				4147CE1329D4301B00FBF986 /* WSTraining */,
 				4147CE1229D4301B00FBF986 /* Products */,
+				5F4C1D502D8AC9DDDE591253 /* Pods */,
+				74DFE27857450CC16E1B6CB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,9 +104,10 @@
 		4147CE2329D4302B00FBF986 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4147CE1629D4301B00FBF986 /* ContentView.swift */,
+				41F73FBD29DED286002DC99C /* Code.swift */,
 				4147CE2A29D435C000FBF986 /* PageView.swift */,
 				4147CE2C29D43B2500FBF986 /* HowToUse.swift */,
+				41DB01D629DD5DD10019E69D /* Email.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -99,6 +115,7 @@
 		4147CE2429D4302F00FBF986 /* Viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				41DB01D829DD6A220019E69D /* EmailVM.swift */,
 			);
 			path = Viewmodel;
 			sourceTree = "<group>";
@@ -111,6 +128,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5F4C1D502D8AC9DDDE591253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E5BEA38F71D7434E4B2830E /* Pods-WSTraining.debug.xcconfig */,
+				B0FE2077339B945DB3D16E0D /* Pods-WSTraining.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74DFE27857450CC16E1B6CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA97F44A5DC14EF3A35E3144 /* Pods_WSTraining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,15 +152,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4147CE1F29D4301C00FBF986 /* Build configuration list for PBXNativeTarget "WSTraining" */;
 			buildPhases = (
+				E9D5FDDA030DD6FB8C89A5F2 /* [CP] Check Pods Manifest.lock */,
 				4147CE0D29D4301B00FBF986 /* Sources */,
 				4147CE0E29D4301B00FBF986 /* Frameworks */,
 				4147CE0F29D4301B00FBF986 /* Resources */,
+				221E46C7050F9E82915A0983 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WSTraining;
+			packageProductDependencies = (
+				41DB01DB29DD6A4C0019E69D /* Alamofire */,
+				41DB01DE29DD6A5B0019E69D /* SwiftyJSON */,
+			);
 			productName = WSTraining;
 			productReference = 4147CE1129D4301B00FBF986 /* WSTraining.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +195,10 @@
 				Base,
 			);
 			mainGroup = 4147CE0829D4301B00FBF986;
+			packageReferences = (
+				41DB01DA29DD6A4C0019E69D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				41DB01DD29DD6A5B0019E69D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 4147CE1229D4301B00FBF986 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,15 +221,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		221E46C7050F9E82915A0983 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WSTraining/Pods-WSTraining-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WSTraining/Pods-WSTraining-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WSTraining/Pods-WSTraining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D5FDDA030DD6FB8C89A5F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4147CE0D29D4301B00FBF986 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4147CE1729D4301B00FBF986 /* ContentView.swift in Sources */,
 				4147CE2B29D435C000FBF986 /* PageView.swift in Sources */,
+				41DB01D729DD5DD10019E69D /* Email.swift in Sources */,
 				4147CE2D29D43B2500FBF986 /* HowToUse.swift in Sources */,
+				41DB01D929DD6A220019E69D /* EmailVM.swift in Sources */,
 				4147CE2929D4339900FBF986 /* PageModel.swift in Sources */,
+				41F73FBE29DED286002DC99C /* Code.swift in Sources */,
 				4147CE1529D4301B00FBF986 /* WSTrainingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +397,7 @@
 		};
 		4147CE2029D4301C00FBF986 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5BEA38F71D7434E4B2830E /* Pods-WSTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -342,6 +431,7 @@
 		};
 		4147CE2129D4301C00FBF986 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FE2077339B945DB3D16E0D /* Pods-WSTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +485,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41DB01DA29DD6A4C0019E69D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		41DB01DD29DD6A5B0019E69D /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41DB01DB29DD6A4C0019E69D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41DB01DA29DD6A4C0019E69D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		41DB01DE29DD6A5B0019E69D /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41DB01DD29DD6A5B0019E69D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4147CE0929D4301B00FBF986 /* Project object */;
 }
