@@ -11,7 +11,7 @@ import SwiftUI
 struct WSTrainingApp: App {
     var body: some Scene {
         WindowGroup {
-            HowToUse()
+            TryActionSheets()
         }
     }
 }

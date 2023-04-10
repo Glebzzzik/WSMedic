@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4114B36829E422CC0004BDE2 /* HalfModal in Frameworks */ = {isa = PBXBuildFile; productRef = 4114B36729E422CC0004BDE2 /* HalfModal */; };
+		4114B36A29E423340004BDE2 /* TryActionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4114B36929E423340004BDE2 /* TryActionSheets.swift */; };
 		4147CE1529D4301B00FBF986 /* WSTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147CE1429D4301B00FBF986 /* WSTrainingApp.swift */; };
 		4147CE1929D4301C00FBF986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147CE1829D4301C00FBF986 /* Assets.xcassets */; };
 		4147CE1C29D4301C00FBF986 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4147CE1B29D4301C00FBF986 /* Preview Assets.xcassets */; };
@@ -19,10 +21,16 @@
 		41DB01DC29DD6A4C0019E69D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 41DB01DB29DD6A4C0019E69D /* Alamofire */; };
 		41DB01DF29DD6A5B0019E69D /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 41DB01DE29DD6A5B0019E69D /* SwiftyJSON */; };
 		41F73FBE29DED286002DC99C /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F73FBD29DED286002DC99C /* Code.swift */; };
+		41F73FC029DFF269002DC99C /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F73FBF29DFF269002DC99C /* Password.swift */; };
+		41F73FC229E17474002DC99C /* REG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F73FC129E17474002DC99C /* REG.swift */; };
+		41F73FC529E3F2FD002DC99C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 41F73FC429E3F2FD002DC99C /* SDWebImageSwiftUI */; };
+		41F73FC729E3F30E002DC99C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F73FC629E3F30E002DC99C /* Main.swift */; };
+		41F73FC929E3FA2C002DC99C /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F73FC829E3FA2C002DC99C /* MainVM.swift */; };
 		5F65B6BD2338D62ED08A33EE /* Pods_WSTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA97F44A5DC14EF3A35E3144 /* Pods_WSTraining.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4114B36929E423340004BDE2 /* TryActionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryActionSheets.swift; sourceTree = "<group>"; };
 		4147CE1129D4301B00FBF986 /* WSTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4147CE1429D4301B00FBF986 /* WSTrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSTrainingApp.swift; sourceTree = "<group>"; };
 		4147CE1829D4301C00FBF986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +42,10 @@
 		41DB01D629DD5DD10019E69D /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
 		41DB01D829DD6A220019E69D /* EmailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVM.swift; sourceTree = "<group>"; };
 		41F73FBD29DED286002DC99C /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Code.swift; path = ../../../../.Trash/Code.swift; sourceTree = "<group>"; };
+		41F73FBF29DFF269002DC99C /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		41F73FC129E17474002DC99C /* REG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REG.swift; sourceTree = "<group>"; };
+		41F73FC629E3F30E002DC99C /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		41F73FC829E3FA2C002DC99C /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
 		4E5BEA38F71D7434E4B2830E /* Pods-WSTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTraining.debug.xcconfig"; path = "Target Support Files/Pods-WSTraining/Pods-WSTraining.debug.xcconfig"; sourceTree = "<group>"; };
 		B0FE2077339B945DB3D16E0D /* Pods-WSTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSTraining.release.xcconfig"; path = "Target Support Files/Pods-WSTraining/Pods-WSTraining.release.xcconfig"; sourceTree = "<group>"; };
 		CA97F44A5DC14EF3A35E3144 /* Pods_WSTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F73FC529E3F2FD002DC99C /* SDWebImageSwiftUI in Frameworks */,
+				4114B36829E422CC0004BDE2 /* HalfModal in Frameworks */,
 				41DB01DF29DD6A5B0019E69D /* SwiftyJSON in Frameworks */,
 				5F65B6BD2338D62ED08A33EE /* Pods_WSTraining.framework in Frameworks */,
 				41DB01DC29DD6A4C0019E69D /* Alamofire in Frameworks */,
@@ -108,6 +122,10 @@
 				4147CE2A29D435C000FBF986 /* PageView.swift */,
 				4147CE2C29D43B2500FBF986 /* HowToUse.swift */,
 				41DB01D629DD5DD10019E69D /* Email.swift */,
+				41F73FBF29DFF269002DC99C /* Password.swift */,
+				41F73FC129E17474002DC99C /* REG.swift */,
+				41F73FC629E3F30E002DC99C /* Main.swift */,
+				4114B36929E423340004BDE2 /* TryActionSheets.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				41DB01D829DD6A220019E69D /* EmailVM.swift */,
+				41F73FC829E3FA2C002DC99C /* MainVM.swift */,
 			);
 			path = Viewmodel;
 			sourceTree = "<group>";
@@ -166,6 +185,8 @@
 			packageProductDependencies = (
 				41DB01DB29DD6A4C0019E69D /* Alamofire */,
 				41DB01DE29DD6A5B0019E69D /* SwiftyJSON */,
+				41F73FC429E3F2FD002DC99C /* SDWebImageSwiftUI */,
+				4114B36729E422CC0004BDE2 /* HalfModal */,
 			);
 			productName = WSTraining;
 			productReference = 4147CE1129D4301B00FBF986 /* WSTraining.app */;
@@ -198,6 +219,8 @@
 			packageReferences = (
 				41DB01DA29DD6A4C0019E69D /* XCRemoteSwiftPackageReference "Alamofire" */,
 				41DB01DD29DD6A5B0019E69D /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				41F73FC329E3F2FD002DC99C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				4114B36629E422CC0004BDE2 /* XCRemoteSwiftPackageReference "HalfModal" */,
 			);
 			productRefGroup = 4147CE1229D4301B00FBF986 /* Products */;
 			projectDirPath = "";
@@ -268,11 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F73FC729E3F30E002DC99C /* Main.swift in Sources */,
+				4114B36A29E423340004BDE2 /* TryActionSheets.swift in Sources */,
 				4147CE2B29D435C000FBF986 /* PageView.swift in Sources */,
 				41DB01D729DD5DD10019E69D /* Email.swift in Sources */,
 				4147CE2D29D43B2500FBF986 /* HowToUse.swift in Sources */,
 				41DB01D929DD6A220019E69D /* EmailVM.swift in Sources */,
+				41F73FC029DFF269002DC99C /* Password.swift in Sources */,
 				4147CE2929D4339900FBF986 /* PageModel.swift in Sources */,
+				41F73FC929E3FA2C002DC99C /* MainVM.swift in Sources */,
+				41F73FC229E17474002DC99C /* REG.swift in Sources */,
 				41F73FBE29DED286002DC99C /* Code.swift in Sources */,
 				4147CE1529D4301B00FBF986 /* WSTrainingApp.swift in Sources */,
 			);
@@ -487,6 +515,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4114B36629E422CC0004BDE2 /* XCRemoteSwiftPackageReference "HalfModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ViktorMaric/HalfModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		41DB01DA29DD6A4C0019E69D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -503,9 +539,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		41F73FC329E3F2FD002DC99C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4114B36729E422CC0004BDE2 /* HalfModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4114B36629E422CC0004BDE2 /* XCRemoteSwiftPackageReference "HalfModal" */;
+			productName = HalfModal;
+		};
 		41DB01DB29DD6A4C0019E69D /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 41DB01DA29DD6A4C0019E69D /* XCRemoteSwiftPackageReference "Alamofire" */;
@@ -515,6 +564,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 41DB01DD29DD6A5B0019E69D /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		41F73FC429E3F2FD002DC99C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41F73FC329E3F2FD002DC99C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
